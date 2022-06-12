@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevRilary Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+                    <img src="img/img02.png" alt="" > 
+                </div>                 
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Minhas Experiências</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Minhas Skills</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Olá, Eu sou <strong>Rilary Gomes</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">back-end dev</p>
+            <img src="img/img01.jpg" alt="" class="intro__img">
+        </section>
+        
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Experiências</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Desenvolvimento</h3>
+                    <p>Desenvolvo usando C# na maior parte do tempo, crio telas seguindo as normas de padronização da empresa, adiciono a lógica de funcionalidade destas, assim como as regras de negócio solicitadas.</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Interfatecs</h3>
+                    <p>Participo da Interfatecs, uma competição de programação entre Fatecs. Minha equipe e eu já recebemos medalhas por bom desempenho da Fatec Sorocaba. Na competição usei Python para solução dos problemas.</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Cursos</h3>
+                    <p>Procuro sempre estar estudando novas linguagens, para isso faço cursos da plataforma Digital Innovation One, YouTube entre outras. Você pode encontrar alguns dos desenvolvimentos desses cursos no meu Github.</p>
+                </div> 
+            </div> 
+            
+            <a href="#skills" class="btn">Minhas Skills</a>
+        </section>
+        
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Um pouco sobre mim</h2>
+           <p class="section__subtitle section__subtitle--about">Developer - Desenvolvedora back-end</p>
+           
+           <div class="about-me__body">
+               <p>Meu trajeto antes me tornar programadora se resume em técnica de contabilidade e professora de inglês.
+                    Eu sempre fui apaixonada por aprender, com o curso de inglês eu conquistei o sonho do inglês avançado/fluência,
+                    agora com a faculdade de Análise e Desenvolvimento de Sistemas, estou trilhando o caminho para criar minha carreira como desenvolvedora.
+                </p>
+               <p>Há 8 meses que eu trabalho com .NET C#, desenvolvendo customizações para clientes de uma consultoria do ERP SAP. 
+                   Ainda atuando como professora também, em aulas particulares de inglês aos finais de semana.</p>
+           </div>
+           
+           <img src="img/img03.jpg" alt="" class="about-me__img">
+        </section>
+        
+        <section class="my-skills" id="skills">
+            <h2 class="section__title section__title--skills">Minhas Skills</h2>
+            <p class="section__subtitle section__subtitle--skills">Minha coleção de skills</p>
+            
+            <div class="portfolio">
+                <a class="portfolio__item">
+                    <img src="img/img05.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img06.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img07.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img08.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img09.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img10.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img11.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img12.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img13.png" alt="" class="portfolio__img">
+                </a>
+                
+                <a class="portfolio__item">
+                    <img src="img/img14.png" alt="" class="portfolio__img">
+                </a>
+
+                <a class="portfolio__item">
+                    <img src="img/img15.png" alt="" class="portfolio__img">
+                </a>
+
+                <a class="portfolio__item">
+                    <img src="img/img16.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <a href="mailto:rilaryemi@gmail.com" class="footer__link">rilaryemi@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/rilary-gomes-4604311a7/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/rilarygomes">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
